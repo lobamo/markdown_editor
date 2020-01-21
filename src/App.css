@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* editor */
+
+.editor {
+  height: 50%;
+  width: 100%;
+}
+
+.textArea {
+  height: 100%;
+  width: 100%;
+  float: left;
+}
+
+.wrapperEditor {
+  height: 100%;
+  width: 100%;
+}
+
+.editor {
+  width: 50%;
+  height: 600px;
+  float: left;
+}
+
+.previewer {
+  height: 100%;
+  width: 45%;
+  float: left;
+  text-align:left;
+  padding-left: 10px;
+  background-color: #61dafb;
 }
